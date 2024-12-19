@@ -1,0 +1,52 @@
+body {
+  h1 {
+    color: $secondaryColor;
+    font-family: "Sour Gummy", serif;
+    font-size: 4em;
+  }
+
+  #container {
+    width: 800px;
+    height: 500px;
+    border: none;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .box {
+    width: 800px;
+    height: 500px;
+  }
+
+  .box:not(.active) {
+    display: none;
+  }
+
+  img {
+    width: 800px;
+    height: 500px;
+    border-radius: 30px;
+  }
+
+  #carrouselleBtn {
+    padding: 5px;
+    margin-top: 30px;
+    width: 790px;
+    border: none;
+    border-radius: 5px;
+    background-color: $secondaryColor;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    transition: 300ms ease-out;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $primaryColor;
+      color: $secondaryColor;
+    }
+  }
+}
