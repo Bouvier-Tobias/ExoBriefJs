@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sass/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container_scoring">
+      <div class="score">
+        <span id="player1Score">0</span>
+        <span>To</span>
+        <span id="player2Score">0</span>
+      </div>
+
+      <div>
+        <label for="maxScore">Score Maximum :</label>
+        <input type="number" id="maxScore" value="5" min="1" />
+      </div>
+
+      <div>
+        <button id="player1Button">Player One</button>
+        <button id="player2Button">Player Two</button>
+        <button id="resetButton">Reset</button>
+      </div>
+    </div>
+    <script src="./scroring.js"></script>
+  </body>
+</html>

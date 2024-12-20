@@ -1,0 +1,76 @@
+body {
+  #container_scoring {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    .score {
+      font-size: 2rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    label {
+      font-size: 1.3em;
+      font-weight: 500;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    span {
+      font-size: 1.5em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #player1Button {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1rem;
+      padding: 15px 20px;
+      margin: 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background-color: #480ca8;
+      color: #fff;
+      font-weight: 600;
+    }
+    #player2Button {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1rem;
+      padding: 15px 20px;
+      margin: 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background-color: #480ca8;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    #resetButton {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1rem;
+      padding: 15px 20px;
+      margin: 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background-color: #480ca8;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    input[type="number"] {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      width: 60px;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .winner {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: green;
+      font-weight: bold;
+    }
+  }
+}
